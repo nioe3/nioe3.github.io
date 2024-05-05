@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+<header>
+    <div></div>
+    <nav>
+        <div onclick="toggleNavMenu()" id="nav-menu-select" class="menu-select">
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="nav-menu" onclick="toggleNavMenu()">
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="landing">
+        <div class="name">
+            <h1>EOIN MITCHELL</h1>
+            <p id="pronounce" onclick="pronounce()">oːn<span class="material-symbols-outlined">volume_up</span></p>
+        </div>
+        <div class="skills-blog">
+            <div class="bio">
+                <p>
+                    Hello, I’m Eoin, a <span class="strong">17-year-old</span> mostly self-taught programmer. I enjoy the process of taking an idea, understanding it, and writing the code that turns a concept into a functional solution. I am currently <span class="strong">enrolled in</span> <a href="https://www.cciu.org/Page/459">TCHS Pennock's Bridge "Computer Information Systems”</a>, where I learn how to use <span class="strong">Python</span> to implement basic <span class="strong">data structures</span> and <span class="strong">algorithms</span>.
+                    I spend most of my free time learning <span class="strong">Rust</span>, a systems programming language known for its performance and strong type safety. While Python helped me <span class="strong">understand core programming concepts</span>, I prefer Rust's low-level control and its applicability in areas like <span class="strong">cross-platform development</span>, <span class="strong">embedded systems</span> and <span class="strong">web-dev</span>. I am also familiar with <span class="strong">HTML</span>, <span class="strong">CSS</span> and <span class="strong">Javascript</span> including common frameworks like <span class="strong">Vue.js</span>, <span class="strong">HTMX</span> and <span class="strong">Svelte</span>. I learn quickly and am always open to learning a new language or framework.
+                    In addition to my technical skills, I'm a creative thinker who values <span class="strong">clean</span>, <span class="strong">modular code</span>  and a robust development process. I'm <span class="strong">highly motivated</span>, meticulous with <span class="strong">details</span>, and always ready to take on new challenges that allow me to learn something new.
+                    I'm excited about the future and can't wait to contribute my skills to <span class="strong">build innovative solutions</span>.
+                </p>
+
+                <!--                <p>-->
+<!--                    I am a full stack developer with a passion for creating digital experiences that are different.-->
+<!--                    I have experience with Rust, Python, and JavaScript. I am also a writer and have written blogs on Rust and Vue.-->
+<!--                </p>-->
+            </div>
+            <div class="skills">
+                <div class="accordion">
+                    <h1>RUST</h1>
+                    <ul>
+                        <li>Actix</li>
+                        <li>Axum</li>
+                        <li>Tauri</li>
+                        <li>Tokio</li>
+                    </ul>
+                </div>
+                <div class="accordion">
+                    <h1>PYTHON</h1>
+                    <ul>
+                        <li>Flask</li>
+                        <li>Beautiful Soup</li>
+                    </ul>
+                </div>
+                <div class="accordion">
+                    <h1>JS</h1>
+                    <ul>
+                        <li>VUE</li>
+                        <li>HTMX</li>
+                    </ul>
+                </div>
+                <div class="accordion">
+                    <h1>DATABASE</h1>
+                    <ul>
+                        <li>Postgres</li>
+                        <li>Redis</li>
+                        <li>Surreal DB</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <h1>Recent Blogs</h1>
+                <a href="https://medium.com/@eoinmitchell39/make-a-desktop-app-with-rust-and-vue-0511091b3173">
+                    Make a Desktop App with Rust and Vue
+                </a>
+                <a href="https://medium.com/@eoinmitchell39/learn-rust-and-htmx-with-a-todo-application-055cf5bbf6cd">
+                    Learn Rust and HTMX with a Todo Application
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div>
+            <h2>email:</h2>
+            <a href="mailto:eoinmitchell39@proton.me">eoinmitchell39@proton.me</a>
+        </div>
+        <div>
+            <h2>git hub:</h2>
+            <a href="https://github.com/nioe3">nio3</a>
+        </div>
+        <div>
+            <h2>medium:</h2>
+            <a href="https://medium.com/@eoinmitchell39">@eoinmitchell39</a>
+        </div>
+    </section>
+
+    
+</main>
+</body>
+</html>
+<script src="ui-scripts.js">
+
+
+
+</script>
